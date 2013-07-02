@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-default['nodejs']['install_method'] = 'source'
+default['nodejs']['install_method'] = 'package'
 default['nodejs']['version'] = '0.10.6'
 default['nodejs']['checksum'] = '7e2079394efe82f62798178f617888c9d6a39150c76122c432ae9ea73ce28e79'
 default['nodejs']['checksum_linux_x64'] = 'cc7ccfce24ae0ebb0c50661ef8d98b5db07fc1cd4a222c5d1ae232260d5834ca'
