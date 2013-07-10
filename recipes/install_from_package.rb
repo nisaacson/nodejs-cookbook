@@ -20,6 +20,11 @@
 # limitations under the License.
 #
 
-pkgin_package "nodejs" do
-  action :install
+# package "nodejs" do
+#   action :install
+# end
+
+bash "install_nodejs_from_package" do
+  command "sudo pkgin install -y nodejs"
+  user "root"
 end
